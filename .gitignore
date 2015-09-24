@@ -39,5 +39,6 @@ Thumbs.db
 # More #
 ######################
 config.codekit
+.codekit-cache
 _*/*
 css/.sass_cache/*
