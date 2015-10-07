@@ -4,7 +4,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Roll Recovery Delivery</title>
+        <title>STOQE Delivery</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all"/>
         <link href="../css/elegant-icons.min.css" rel="stylesheet" type="text/css" media="all"/>
@@ -33,7 +33,7 @@
                 <img alt="Logo" class="logo" src="../img/logo-square-light.png">
               </a>
               <ul class="menu">
-                <li><a href="/">Roll Recovery Delivery</a></li>
+                <li><a href="/">STOQE Delivery</a></li>
               </ul>
 
               <!--div class="nav-functions">
@@ -82,7 +82,8 @@
               <h4>
                   <strong>*</strong> Fill in <strong>all the boxes</strong><br>
                   <strong>*</strong> Use the <strong>same email address</strong> you used for payment<br>
-                  <strong>*</strong> <strong>Click the Submit button</strong> at the bottom to send us your details
+                  <strong>*</strong> Tell us <strong>who recommended you</strong>  to buy (if anyone)<br>
+                  <strong>*</strong> Be sure to <strong>click the Submit button</strong> at the bottom to finish
               </h4>
             </div>
           </div>
@@ -142,6 +143,9 @@
                   <div class="col-sm-12 col-md-3">
                       <input type="text" class="validate-required validate-email" name="email" placeholder="Email Address">
                   </div>
+                  <div class="col-sm-12 col-md-6 col-md-offset-3">
+                    <hr>
+                  </div>
               </div>
 
               <div class="row">
@@ -149,11 +153,28 @@
                       <div class="select-option">
                         <select name="payment-method">
                             <option selected="" value="noSelect">Select How You Paid</option>
-                            <option value="Visa Card">Visa Card</option>
+                            <!--option value="Visa Card">Visa Card</option>
                             <option value="Master Card">Master Card</option>
                             <option value="Direct Debit">Direct Debit</option>
                             <option value="AMEX">AMEX</option>
+                            <option value="Other">Other</option-->
+                            <option value="Credit Card">Credit Card</option>
+                            <option value="Direct Debit">Direct Debit</option>
                             <option value="Other">Other</option>
+                        </select>
+                      </div>
+                  </div>
+                  <div class="col-sm-12 col-md-6 col-md-offset-3">
+                    <hr>
+                  </div>
+              </div>
+
+              <div class="row">
+                  <div class="col-sm-12 col-md-6 col-md-offset-3">
+                      <div class="select-option">
+                        <select name="referrer">
+                            <option selected="" value="noSelect">Select Who Recommended this product (if anyone)</option>
+                            <option value="Robbie McEwen">Robbie McEwen</option>
                         </select>
                       </div>
                   </div>
@@ -186,7 +207,7 @@
 
               <div class="row">
                   <div class="col-xs-10 col-md-5 col-md-offset-3">
-                      <span class="fontMd pl20">Do you want email Updates?</span>
+                      <span class="fontMd pl20">Do you want email Updates?  (They're free)</span>
                   </div>
                   <div class="col-xs-2 col-md-1">
                       <div class="checked">
@@ -201,7 +222,7 @@
 
               <div class="row">
                   <div class="col-xs-10 col-md-5 col-md-offset-3">
-                      <span class="fontMd pl20">Do you want SMS Updates? (They're free)</span>
+                      <span class="fontMd pl20">Do you want SMS Updates? (They're free too)</span>
                   </div>
                   <div class="col-xs-2 col-md-1">
                       <div class="checked">
@@ -228,7 +249,7 @@
         </div><!--end of container-->
       </section>
 
-
+      
 <footer class="footer-2">
   <div class="container">
     <div class="row">
@@ -256,7 +277,7 @@
     </div>
   </div>
 </footer>
-
+      
     </div>
 
 
@@ -281,7 +302,7 @@
           t.type  = 'text/javascript';
           t.async = true;
           t.id    = 'gauges-tracker';
-          t.setAttribute('data-site-id', '5603be2892c6ac0977000da3');
+          t.setAttribute('data-site-id', '553eeaa892c6ac481a007265');
           t.setAttribute('data-track-path', 'https://track.gaug.es/track.gif');
           t.src = 'https://track.gaug.es/track.js';
           var s = document.getElementsByTagName('script')[0];
