@@ -29,8 +29,6 @@ var output = postcss([autoprefixer])
 fs.writeFile("css/tachyons.css", output, 'utf-8')
 var uncompressed = fs.statSync("css/tachyons.css")
 var uncompressedSize = uncompressed["size"]
-var gzippedSRC = gzipSize.sync(uncompressed)
-console.log("This file starts out at " + filesize(uncompressedSize))
 
 //console.log(filesize(output.css))
 
