@@ -1067,7 +1067,7 @@ input[type="password"]:after,
 .db {     display: block; }
 .dib {    display: inline-block; }
 .dit {    display: inline-table; }
-.dt {     display: table; table-layout: fixed; width: 100%; }
+.dt {     display: table; }
 .dtr {    display: table-row; }
 .dtc {    display: table-cell; }
 .dtcol {  display: table-column; }
@@ -1166,7 +1166,8 @@ input[type="password"]:after,
 */
 
 .sans-serif {
-  font-family: 'avenir next', avenir,
+  font-family: 'san francisco',
+                'avenir next', avenir,
                 helvetica, 'helvetica neue',
                 arial,
                 sans-serif;
@@ -1814,6 +1815,7 @@ img { max-width: 100%; }
 
  */
 
+.fixed    { position: fixed; }
 .pos-stat { position: static; }
 .pos-rel  { position: relative; }
 .pos-abs  { position: absolute; }
