@@ -31,7 +31,7 @@
         </div>
       </nav>
     </header>
-      <section class="phm h-100 dt w-100 bb b--light-gray">
+    <section class="phm h-100 dt w-100 bb b--light-gray pos-rel">
         <div class="dtc v-mid pos-rel">
           <h1 class="mvn tc fw2 f1 mega-ns">
             Roll Recovery R8
@@ -44,7 +44,7 @@
           </div>
           <div class="tc">
             <div class="dib">
-              <a class="link dim phs phm-ns mid-gray dt mbs mbn-ns" href="http://www.url.com" target="_blank">
+              <a class="link dim phs phm-ns mid-gray dt mbs mbn-ns" id="show-modal-1" href="#modal-1" target="_blank">
                 <div class="dtc v-mid prxs">
                   Watch the Demo Video
                 </div>
@@ -58,7 +58,7 @@
               </a>
             </div>
             <div class="dib">
-              <a class="link dim phs phm-ns mid-gray dt" href="http://www.url.com" target="_blank">
+              <a class="link dim phs phm-ns mid-gray dt" id="show-modal-2" href="#modal-2" target="_blank">
                 <span class="dtc v-mid prxs">
                   Watch the How-to Video
                 </span>
@@ -71,6 +71,7 @@
                 </span>
               </a>
             </div>
+
             <p class="tc gray pos-abs bottom-4 left-0 right-0 phm lh-copy">BUY IT &amp; TRY IT <br class="db dn-ns">If you don't like it just send it back for a refund.</p>
           </div>
         </div>
@@ -253,6 +254,20 @@
           <div class="fl w-50 paxs pam-l"><img class="db" src="i/roll-recovery-r8-3.jpg"></div>
         </section>
       </div>
+      <section>
+        <div class="cf center mw8 phm pbxl">
+
+        <h1 class="book ttu tracked gray f4 pbm mbl bb b--light-gray">Videos</h1>
+        <article class="fl w-100 w-50-ns prm-ns border-box" id="modal-1">
+          <h2 class="book ttu tracked gray f4">Demo</h2>
+          <iframe src="https://player.vimeo.com/video/54233512?title=0&byline=0&portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        </article>
+        <article class="fl w-100 w-50-ns plm-ns border-box" id="modal-2">
+          <h2 class="book ttu tracked gray f4">How-to</h2>
+          <iframe src="https://player.vimeo.com/video/75995476?title=0&byline=0&portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        </article>
+        </div>
+      </section>
       <div class="pvxl pvxxl-l bt b--white bg-near-white">
         <section class="cf center mw8 phm">
           <article class="dt mw7 center">
@@ -302,6 +317,18 @@
     <!--script src="js/placeholders.min.js"></script-->
     <!--script src="js/countdown.min.js"></script-->
     <script src="js/scripts.js"></script>
+    <script type="text/javascript" charset="utf-8">
+    $(function() {
+      $("#show-modal-1").click(function( event ) {
+         $("#modal-1").removeClass('dn').addClass('db');
+         $("#modal-2").removeClass('db').addClass('dn');
+      });
+      $("#show-modal-2").click(function( event ) {
+         $("#modal-1").removeClass('db').addClass('dn');
+         $("#modal-2").removeClass('dn').addClass('db');
+      });
+    });
+    </script>
     <script type="text/javascript">
       var _gauges = _gauges || [];
         (function() {

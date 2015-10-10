@@ -3442,6 +3442,10 @@ img { max-width: 100%; }
   Add custom styles here.
 
 */
+
+
+
+iframe { max-width: 100%; }
 /*
 
    GRADIENTS
