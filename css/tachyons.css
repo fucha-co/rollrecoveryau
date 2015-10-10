@@ -3444,6 +3444,38 @@ img { max-width: 100%; }
 */
 
 
+.modal-1 {
+  opacity: 0;
+  transition: opacity .2s linear;
+  pointer-events: none;
+}
+
+.modal-2 {
+  opacity: 0;
+  transition: opacity .2s linear;
+  pointer-events: none;
+}
+
+.modal-2:target {
+  pointer-events: all;
+  z-index: 300;
+  opacity: 1;
+  transition: opacity .2s linear;
+}
+
+.modal-1:target {
+  pointer-events: all;
+  z-index: 300;
+  opacity: 1;
+  transition: opacity .2s linear;
+}
+
+fullscreen {
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
 
 iframe { max-width: 100%; }
 /*
