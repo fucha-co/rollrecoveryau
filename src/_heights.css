@@ -6,6 +6,7 @@
 
 /* Height Scale */
 
+.circle-height {  height: 1.5rem; }
 .h1 {  height: 1rem; }
 .h2 {  height: 2rem; }
 .h3 {  height: 4rem; }

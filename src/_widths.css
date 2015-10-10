@@ -36,6 +36,7 @@
 
 /* Width Scale */
 
+.circle-width {  width: 1.5rem; }
 .w1 {  width: 1rem; }
 .w2 {  width: 2rem; }
 .w3 {  width: 4rem; }

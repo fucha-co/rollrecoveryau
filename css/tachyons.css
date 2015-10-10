@@ -1333,6 +1333,7 @@ code, .code {
 
 /* Height Scale */
 
+.circle-height {  height: 1.5rem; }
 .h1 {  height: 1rem; }
 .h2 {  height: 2rem; }
 .h3 {  height: 4rem; }
@@ -1663,6 +1664,7 @@ img { max-width: 100%; }
 
 /* Width Scale */
 
+.circle-width {  width: 1.5rem; }
 .w1 {  width: 1rem; }
 .w2 {  width: 2rem; }
 .w3 {  width: 4rem; }
