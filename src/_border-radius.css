@@ -28,6 +28,7 @@
   .br3 {        border-radius: .5rem; }
   .br4 {        border-radius: 1rem; }
   .br5 {        border-radius: 2rem; }
+  .br-50 {     border-radius: 50%; }
   .br-100 {     border-radius: 100%; }
 
 @media (--breakpoint-not-small) {

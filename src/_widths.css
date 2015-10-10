@@ -40,7 +40,7 @@
 .w2 {  width: 2rem; }
 .w3 {  width: 4rem; }
 .w4 {  width: 8rem; }
-.w5 {  width: 16rem; }
+.w5 {  width: 12rem; }
 
 .w-10 { width:  10%; }
 .w-20 { width:  20%; }
@@ -61,7 +61,7 @@
   .w2-ns {  width: 2rem; }
   .w3-ns {  width: 4rem; }
   .w4-ns {  width: 8rem; }
-  .w5-ns {  width: 16rem; }
+  .w5-ns {  width: 12rem; }
   .w-10-ns { width:  10%; }
   .w-20-ns { width:  20%; }
   .w-25-ns { width:  25%; }
@@ -81,7 +81,7 @@
   .w2-m {      width: 2rem; }
   .w3-m {      width: 4rem; }
   .w4-m {      width: 8rem; }
-  .w5-m {      width: 16rem; }
+  .w5-m {      width: 12rem; }
   .w-10-m { width:  10%; }
   .w-20-m { width:  20%; }
   .w-25-m { width:  25%; }

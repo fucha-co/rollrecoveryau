@@ -22,6 +22,7 @@
 .b--silver {       border-color: var(--silver); }
 .b--light-silver { border-color: var(--light-silver); }
 .b--light-gray {   border-color: var(--light-gray); }
+.b--moon-gray {    border-color: var(--moon-gray); }
 .b--near-white {   border-color: var(--near-white); }
 .b--white {        border-color: var(--white); }
 
