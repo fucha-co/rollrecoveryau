@@ -1166,7 +1166,7 @@ input[type="password"]:after,
 */
 
 .sans-serif {
-  font-family: 'san francisco',
+  font-family: '-apple-system',
                 'avenir next', avenir,
                 helvetica, 'helvetica neue',
                 arial,
@@ -1261,8 +1261,10 @@ code, .code {
 .normal   { font-weight: normal; }
 .b        { font-weight: bold; }
 .thin     { font-weight: 100; }
-.book     { font-weight: 400; }
-.semibold { font-weight: 500; }
+.fw2      { font-weight: 200; }
+.fw3      { font-weight: 300; }
+.book     { font-weight: 200; }
+.semibold { font-weight: 300; }
 .bold     { font-weight: 600; }
 .heavy    { font-weight: 700; }
 .ultrabold{ font-weight: 900; }
