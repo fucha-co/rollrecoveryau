@@ -7,7 +7,7 @@
     "start": "parallelshell 'npm run build:css' 'npm run server'",
     "build:css": "watch 'node index.js' src/",
     "build:images": "gulp images",
-    "gulp": "gulp",
+    "uncss": "gulp uncss",
     "server": "browser-sync start --server --files './*'"
   },
   "repository": {

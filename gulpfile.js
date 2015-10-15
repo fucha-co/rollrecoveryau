@@ -6,7 +6,7 @@ var imagemin = require('gulp-imagemin');
 var pngquant = require('imagemin-pngquant');
 
 
-gulp.task('default', function () {
+gulp.task('uncss', function () {
     return gulp.src('css/tachyons.css')
         .pipe(uncss({
             html: ['index.html']
