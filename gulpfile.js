@@ -5,6 +5,10 @@ var minifycss = require('gulp-minify-css')
 var imagemin = require('gulp-imagemin');
 var pngquant = require('imagemin-pngquant');
 
+var paths = {
+  styles: ['css/tachyons.css'],
+  images: 'i/*'
+};
 
 gulp.task('uncss', function () {
     return gulp.src('css/tachyons.css')
@@ -24,3 +28,12 @@ gulp.task('images', function () {
         }))
         .pipe(gulp.dest('images-prod'));
 })
+
+// Rerun the task when a file changes
+gulp.task('watch', function() {
+  gulp.watch(paths.styles, ['uncss']);
+  gulp.watch(paths.images, ['images']);
+});
+
+// The default task (called when you run `gulp` from cli)
+gulp.task('default', ['watch', 'uncss', 'images']);

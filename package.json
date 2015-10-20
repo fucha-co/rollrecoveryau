@@ -4,7 +4,7 @@
   "description": "Product site for roll recovery",
   "main": "index.js",
   "scripts": {
-    "start": "parallelshell 'npm run build:css' 'npm run server'",
+    "start": "parallelshell 'npm run build:css' 'npm run server' 'gulp'",
     "build:css": "watch 'node index.js' src/",
     "build:images": "gulp images",
     "uncss": "gulp uncss",
