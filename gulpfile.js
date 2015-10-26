@@ -8,7 +8,7 @@ var pngquant = require('imagemin-pngquant');
 var paths = {
   styles: ['css/tachyons.css'],
   html: ['index.html'],
-  images: ['i/*']
+  images: ['img/*']
 };
 
 gulp.task('uncss', function () {
@@ -22,12 +22,12 @@ gulp.task('uncss', function () {
 });
 
 gulp.task('images', function () {
-    return gulp.src('i/*')
+    return gulp.src('img/*')
         .pipe(imagemin({
             progressive: true,
             use: [pngquant()]
         }))
-        .pipe(gulp.dest('images-prod'));
+        .pipe(gulp.dest('i'));
 })
 
 // Rerun the task when a file changes
