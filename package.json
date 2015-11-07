@@ -1,7 +1,7 @@
 {
-  "name": "rollrecovery",
+  "name": "rollrecoveryau",
   "version": "1.0.0",
-  "description": "Product site for roll recovery",
+  "description": "Product site for Roll Recovery AU",
   "main": "index.js",
   "scripts": {
     "start": "parallelshell 'npm run build:css' 'npm run server' 'gulp'",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/loadsfaster/rollrecovery.git"
+    "url": "git+https://github.com/loadsfaster/rollrecoveryau.git"
   },
   "keywords": [
     "rollrecovery"
@@ -20,9 +20,9 @@
   "author": "mrmrs",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/loadsfaster/rollrecovery/issues"
+    "url": "https://github.com/loadsfaster/rollrecoveryau/issues"
   },
-  "homepage": "https://github.com/loadsfaster/rollrecovery#readme",
+  "homepage": "https://github.com/loadsfaster/rollrecoveryau#readme",
   "devDependencies": {
     "autoprefixer": "^6.0.3",
     "browser-sync": "^2.9.11",
