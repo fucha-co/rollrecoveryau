@@ -1,889 +1,737 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
+	<meta name="generator" content="Hugo 0.16" />
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="The exclusive Australian seller of ROLL Recovery R8 and R3.">
-    <meta name="author" content="STOQE">
 
-    <title>ROLL Recovery Australia</title>
+    <meta name="author" content="ROLL Recovery Australia">
+
+    <title>
+      
+        ROLL Recovery Australia
+      
+    </title>
+    <meta name="description" content='
+      
+        The only place in Australia to buy ROLL Recovery products.
+      
+    '>
+
 
       <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700" rel="stylesheet">
       <link href="./assets/css/toolkit-minimal.css" rel="stylesheet">
       <link href="./assets/css/application-minimal.css" rel="stylesheet">
 
     <style>
-
-      a, a:visited, .red {
-          color: #f00;
-          text-decoration: none;
-      }
-      a:hover, a:focus {
-          color: #f00;
-          text-decoration: underline;
-      }
-      .panel h4 {
-          font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
-          font-weight: 300;
-          line-height: 1.2;
-          color: inherit;
-      }
-      .btn, .btn-info {
-          color: #fff;
-          text-decoration: none;
-      }
-      .btn-info:hover, .btn-info:focus, .btn-info:visited {
-          color: #fff;
-          text-decoration: underline;
-      }
-      .panel-floating {
-          border-top: 5px solid #f00;
-          overflow: hidden;
-          box-shadow: 0 2px 15px #0000001a;
-      }
-      .pull-quote > cite {
-          display: block;
-          margin-top: 10px;
-          font-size: 12px;
-          font-style: normal;
-          letter-spacing: .15em;
-          color: #AAA;
-          text-transform: uppercase;
-      }
-      .pull-quote > img {
-          width: 150px;
-          height: 150px;
-      }
-      .text-ribbon.block {
-          display: block;
-          left: 0px;
-      }
-      .text-ribbon-primary {
-          background-color: #ff0000;
-      }
-      .text-ribbon-primary.text-ribbon span,
-      .navbar-brand .text-ribbon-primary.text-ribbon {
-          color: #fff;
-      }
-      .app-block-intro img {
-          width: 100%;
-          margin-bottom: 0%;
-      }
-      .featured-list-bordered .featured-list-icon {
-          border: 1px solid #eee;
-          border-radius: 50%;
-          height: 80px;
-          width: 80px;
-          line-height: 89px;
-          color: #f00;
-      }
-      .callout {
-          font-size: 18px;
-      }
-      .b {
-        font-weight: bold;
-      }
-      .btn-info {
-          color: #FFF;
-          background-color: #ff0000;
-          border-color: #000;
-      }
-      @media (min-width: 768px) {
-      .pull-quote > img {
-          width: 200px;
-          height: 200px;
+    a, a:visited, .red {
+            color: #f00;
+            text-decoration: none;
         }
+
+    a:hover,
+    a:focus {
+        color: #f00;
+        text-decoration: underline;
+    }
+
+    .navbar-nav li:last-of-type a {
+      color: #f00;
+    }
+
+    .panel h4 {
+        font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-weight: 300;
+        line-height: 1.2;
+        color: inherit;
+    }
+
+    .btn,
+    .btn-info {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .btn-info:hover,
+    .btn-info:focus,
+    .btn-info:visited {
+        color: #fff;
+        text-decoration: underline;
+    }
+
+    .panel-floating {
+        border-top: 5px solid #f00;
+        overflow: hidden;
+        box-shadow: 0 2px 15px #0000001a;
+    }
+
+    .pull-quote {
+        max-width: 100%;
+    }
+
+    .pull-quote > cite {
+        display: block;
+        margin-top: 10px;
+        font-size: 12px;
+        font-style: normal;
+        letter-spacing: .15em;
+        color: #AAA;
+        text-transform: uppercase;
+    }
+
+    .pull-quote img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .text-ribbon.block {
+        display: block;
+        left: 0px;
+    }
+
+    .text-ribbon-primary {
+        background-color: #ff0000;
+    }
+
+    .text-ribbon-primary.text-ribbon span,
+    .navbar-brand .text-ribbon-primary.text-ribbon {
+        color: #fff;
+    }
+
+    .text-ribbon-secondary {
+        background-color: #ddd;
+    }
+
+    .app-block-intro img {
+        //width: 100%;
+        margin-bottom: 0%;
+    }
+
+    .imgauto img {
+      width: auto;
+    }
+
+    .featured-list-bordered .featured-list-icon {
+        border: 1px solid #eee;
+        border-radius: 50%;
+        height: 80px;
+        width: 80px;
+        line-height: 89px;
+        color: #f00;
+    }
+
+    .callout {
+        font-size: 18px;
+    }
+
+    .bordered {
+        border: 1px solid #e5e5e5;
+        border-radius: 3px 3px 0 0;
+    }
+
+    .backbordered:before {
+        content: '';
+        position: absolute;
+        display: block;
+        top: 29%;
+        left: -1000px;
+        right: -1000px;
+        height: 1px;
+        background-color: #dcdfe4;
+    }
+
+    .b {
+        font-weight: bold;
+    }
+
+    .up {
+      text-transform: uppercase;
+    }
+
+    .fwnorm,
+    h1.fwnorm,
+    .fwnorm h1,
+    .fwnorm h2 .fwnorm h3 .fwnorm h4 .fwnorm p {
+        font-weight: normal !important;
+    }
+
+    .btn-info {
+        color: #FFF;
+        background-color: #ff0000;
+        border-color: #000;
+    }
+
+    li {
+      list-style-type: none;
+    }
+
+    .m-b-1 {
+      margin-bottom: 1px;
+    }
+
+    .p-b-sm {
+      padding-bottom: 60px;
+    }
+
+    .content p {
+        margin-bottom: 22px;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 1.4;
       }
-    </style>
+    }
+
+    @media (min-width: 768px) {
+        .pull-quote img {
+            width: 200px;
+            height: 200px;
+        }
+    }
+</style>
   </head>
 
-<body>
+<body class="
+  home 
+  
+">
 
 
-<!-- Menu -->
-  <nav class="navbar navbar-default navbar-static-top navbar-padded text-uppercase app-navbar">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed p-x-0" data-toggle="collapse" data-target="#navbar-collapse">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
+<nav class="navbar navbar-default navbar-static-top navbar-padded text-uppercase app-navbar">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed p-x-0" data-toggle="collapse" data-target="#navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
 
-        <a class="navbar-brand" href="https://rollrecovery.com.au/">
-          <span class="text-ribbon text-ribbon-primary">ROLL Recovery AU &nbsp;&nbsp;</span>
-        </a>
-      </div>
-      <div class="navbar-collapse collapse" id="navbar-collapse">
-        <ul class="nav navbar-nav navbar-right">
-          <li>
-            <a href="#r3">Foot Massage</a>
-          </li>
-          <li class="">
-            <a href="#r8">Leg Massage</a>
-          </li>
-          <li>
-            <a href="#reviews">Reviews</a>
-          </li>
-          <li>
-            <a href="#faqs">FAQs</a>
-          </li>
-          <li>
-            <a href="https://rollrecovery.com.au/buy">Buy Now</a>
-          </li>
-        </ul>
-      </div><!--/.nav-collapse -->
+      <a class="navbar-brand" href="./">
+        <span class="text-ribbon text-ribbon-primary">ROLL Recovery AU &nbsp;&nbsp;</span>
+      </a>
     </div>
-  </nav>
 
+    <div class="navbar-collapse collapse" id="navbar-collapse">
+      <ul class="nav navbar-nav navbar-right">
+          
 
-<!-- HERO -->
-  <div class="block app-block-intro">
-    <div class="container text-center">
-      <h1 class="block-title m-b-sm app-myphone-brand">
-        <span>ROLL Recovery</span>
-      </strong>
-      <h2 class="p-b-md">The secret tools of top Athletes, Olympians, and Physios.</h2>
-      <!--h2 class="p-b-md">The Greatest Recovery Tools on Earth are now in Australia</h2-->
-      <!--span class="statcard-desc"><span class="red">*</span> Used by athletes, Olympians, Coaches, and Physios worldwide.</span-->
-      <div class="row m-b">
-        <div class="col-md-5 col-sm-12">
-          <img class="m-t-lg" src="./assets/i/roll-recovery-r3s.jpg">
-        </div>
-        <div class="col-md-6 col-md-offset-1 col-sm-12">
-          <img class="m-t-lg" src="./assets/i/roll-recovery-hero-new-high.jpg">
-        </div>
-      </div>
-      <!--div class="row m-b">
-        <div class="col-md-6 col-sm-12">
-          <img class="m-t-lg" src="./assets/i/r8.png">
-        </div>
-        <div class="col-md-6 col-sm-12">
-          <img class="m-t-lg" src="./assets/i/roll-recovery-r3s.jpg">
-        </div-->
+          
+                  <li><a href="./r3/"> r3 </a></li>
+          
+                  <li><a href="./r8/"> r8 </a></li>
+          
+                  <li><a href="./reviews/"> reviews </a></li>
+          
+                  <li><a href="./faqs/"> faqs </a></li>
+          
+                  <li><a href="./buy"> buy now </a></li>
+          
+      </ul>
     </div>
+
   </div>
+</nav>
 
 
-<!-- Review Tease -->
-  <!--div class="block block-bordered-lg">
-    <div class="container text-center app-translate-15" data-transition="entrance">
-      <div class="row m-b-lg">
-        <div class="col-md-4 col-sm-12">
-          <blockquote class="pull-quote m-b">
-            <img class="img-circle" class="app-translate-5" data-transition="entrance" src="./assets/i/robbie-mcewen.jpg">
-            <p>
-              "Awesome."
-            </p>
-            <cite><strong>ROBBIE MCEWEN</strong><br>CYCLING SUPER STAR</cite>
-          </blockquote>
-        </div>
-        <div class="col-md-4 col-sm-12">
-          <blockquote class="pull-quote m-b">
-            <img class="img-circle" class="app-translate-5" data-transition="entrance" src="./assets/i/emma-moffatt.jpg">
-            <p>
-              “Easy.”
-            </p>
-            <cite><strong>Emma Moffat</strong><br>Rio Olympic Triathlete</cite>
-          </blockquote>
-        </div>
-        <div class="col-md-4 col-sm-12">
-          <blockquote class="pull-quote m-b">
-            <img class="img-circle" class="app-translate-5" data-transition="entrance" src="./assets/i/ben-st-lawrence.jpg">
-            <p>
-              "Portable!"
-            </p>
-            <cite><strong>BEN ST LAWRENCE</strong><br>Rio Olympic Runner</cite>
-          </blockquote>
-        </div>
-      </div>
-      <p class="lead m-b-md">
-        See more Pro Reviews at the bottom of the page
-      </p>
-    </div>
-  </div-->
+
+<div id="hero" class="block app-block-intro">
+  <div class="container text-center p-x-0">
+    
 
 
-<!-- Pro Reviews -->
-  <div id="reviews" class="block block-bordered-0 text-center">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12 col-sm-offset-0 text-center m-b-lg">
-          <h1 class="m-t-0">
-            <strong class="block text-ribbon text-ribbon-primary">
-              <span>Pro Reviews</span>
-            </strong>
-          </h1>
-          <p class="b lead m-x-auto">What the Pro's think of ROLL Recovery in just one word...</p>
-        </div>
+
+    <h1 class="block-title m-b-sm app-myphone-brand">
+        
+          ROLL Recovery
+        
+    </h1>
+
+    <h3 class="p-b-md">
+      
+        LEG MASSAGE AND FEET RELIEF MADE EASY. AND PORTABLE!
+      
+    </h3>
+
+    
+    <div class="row m-t-lg p-x-0">
+      
+      <div class="col-sm-6 m-b-sm p-t-sm">
+        
+
+
+  <div class="m-t-md panel panel-default panel-floating panel-floating-inline">
+    <div class="panel-body">
+      <div class="panel-content">
+        <h2 class="b m-t-0 m-b-0">R8</h2>
+        <h3 class="m-t-0">Leg Massage Made Easy</h3>
+        <a href="https://rollrecovery.com.au/r8"><img class="m-t-sm" src="./assets/i/roll-recovery-r8-use.jpg"></a>
       </div>
 
-      <div class="row m-b">
-        <div class="col-md-3 col-xs-6">
-          <blockquote class="pull-quote m-b-lg">
-            <img class="img-circle" class="app-translate-5" data-transition="entrance" src="./assets/i/robbie-mcewen.jpg">
-            <p>
-              "Awesome."
-            </p>
-            <cite><strong>ROBBIE MCEWEN</strong><br>CYCLING STAR</cite>
-          </blockquote>
-        </div>
-        <div class="col-md-3 col-xs-6">
-          <blockquote class="pull-quote m-b-lg">
-            <img class="img-circle" class="app-translate-5" data-transition="entrance" src="./assets/i/emma-moffatt.jpg">
-            <p>
-              “Easy.”
-            </p>
-            <cite><strong>Emma Moffat</strong><br>Pro Triathlete</cite>
-          </blockquote>
-        </div>
-        <div class="col-md-3 col-xs-6">
-          <blockquote class="pull-quote m-b-lg">
-            <img class="img-circle" class="app-translate-5" data-transition="entrance" src="./assets/i/ben-st-lawrence.jpg">
-            <p>
-              "Portable!"
-            </p>
-            <cite><strong>BEN ST LAWRENCE</strong><br>Olympic Runner</cite>
-          </blockquote>
-        </div>
-        <div class="col-md-3 col-xs-6">
-          <blockquote class="pull-quote m-b-lg">
-            <img class="img-circle" class="app-translate-5" data-transition="entrance" src="./assets/i/tim-slade.jpg">
-            <p>
-              “Priceless.”
-            </p>
-            <cite><strong>Tim Slade</strong><br>V8 Supercars</cite>
-          </blockquote>
-        </div>
-      </div>
-      <div class="row m-b">
-        <div class="col-md-3 col-xs-6">
-          <blockquote class="pull-quote m-b-lg">
-            <img class="img-circle" class="app-translate-5" data-transition="entrance" src="./assets/i/liz-blatchford.jpg">
-            <p>
-              "Ingenious."
-            </p>
-            <cite><strong>Liz Blatchford</strong><br>Pro Triathlete</cite>
-          </blockquote>
-        </div>
-        <div class="col-md-3 col-xs-6">
-          <blockquote class="pull-quote m-b-lg">
-            <img class="img-circle" class="app-translate-5" data-transition="entrance" src="./assets/i/greg-henderson.jpg">
-            <p>
-              "Convenient."
-            </p>
-            <cite><strong>Greg Henderson</strong><br>Pro Tour Cyclist</cite>
-          </blockquote>
-        </div>
-        <div class="col-md-3 col-xs-6">
-          <blockquote class="pull-quote m-b-lg">
-            <img class="img-circle" class="app-translate-5" data-transition="entrance" src="./assets/i/dave-byrne-nz.jpg">
-            <p>
-              “Addictive!”
-            </p>
-            <cite><strong>Dave Byrne</strong><br>Pro Runner</cite>
-          </blockquote>
-        </div>
-        <div class="col-md-3 col-xs-6">
-          <blockquote class="pull-quote m-b-lg">
-            <img class="img-circle" class="app-translate-5" data-transition="entrance" src="./assets/i/blake-hose.jpg">
-            <p>
-              “Unreal!”
-            </p>
-            <cite><strong>Blake Hose</strong><br>Ultra Trail Star</cite>
-          </blockquote>
-        </div>
-      </div>
-      <div class="row m-b">
+      <div class="panel-actions inline">
+        <div class="row imgauto text-left m-t-lg m-b-lg">
 
-        <div class="col-md-3 col-xs-6">
-          <blockquote class="pull-quote m-b-lg">
-            <img class="img-circle" class="app-translate-5" data-transition="entrance" src="./assets/i/nick-gates.jpg">
-            <p>
-              "Brew?"
-            </p>
-            <cite><strong>Nick Gates</strong><br>Confused</cite>
-          </blockquote>
-        </div>
-        <div class="col-md-3 col-xs-6">
-          <blockquote class="pull-quote m-b-lg">
-            <img class="img-circle" class="app-translate-5" data-transition="entrance" src="./assets/i/brad-beven.jpg">
-            <p>
-              "Good.”
-            </p>
-            <cite><strong>Brad Beven</strong><br>Triathlon God</cite>
-          </blockquote>
-        </div>
-        <div class="col-md-3 col-xs-6">
-          <blockquote class="pull-quote m-b-lg">
-            <img class="img-circle" class="app-translate-5" data-transition="entrance" src="./assets/i/leah-fitzgerald.jpg">
-            <p>
-              "Great"
-            </p>
-            <cite><strong>Leah Fitzgerald</strong><br>Marathon Runner</cite>
-          </blockquote>
-        </div>
-        <div class="col-md-3 col-xs-6">
-          <blockquote class="pull-quote m-b-lg">
-            <img class="img-circle" class="app-translate-5" data-transition="entrance" src="./assets/i/jack-perkins.jpg">
-            <p>
-              "Perfect.”
-            </p>
-            <cite><strong>Jack Perkins</strong><br>V8 Supercars</cite>
-          </blockquote>
-        </div>
-      </div>
-
-      <div class="row m-b">
-
-        <div class="col-md-3 col-xs-6">
-          <blockquote class="pull-quote m-b-lg">
-            <img class="img-circle" class="app-translate-5" data-transition="entrance" src="./assets/i/robbie-mcewen-blue.jpg">
-            <p>
-              "[No sound]"
-            </p>
-            <cite><strong>ROBBIE MCEWEN</strong><br>Neo Comm</cite>
-          </blockquote>
-        </div>
-        <div class="col-md-3 col-xs-6">
-          <blockquote class="pull-quote m-b-lg">
-            <img class="img-circle" class="app-translate-5" data-transition="entrance" src="./assets/i/matt-keenan.png">
-            <p>
-              "[Moves Mic]"
-            </p>
-            <cite><strong>Matt Keenan</strong><br>Pro Commentator</cite>
-          </blockquote>
-        </div>
-        <div class="col-md-6 col-xs-12">
-          <blockquote class="pull-quote m-b-lg">
-            <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Robbie and Keeno having fun in the fabulous box for the <a href="https://twitter.com/hashtag/Giro?src=hash">#Giro</a> <a href="https://twitter.com/hashtag/sbscycling?src=hash">#sbscycling</a> <a href="https://t.co/wNh681Urly">https://t.co/wNh681Urly</a></p>&mdash; CyclingCentral (@CyclingCentral) <a href="https://twitter.com/CyclingCentral/status/735468585250742275">May 25, 2016</a></blockquote>
-            <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-            <p>
-              "Thank you Matthew"
-            </p>
-            <cite><strong>Robbie McEwen</strong><!--br>Less Neo Comm--></cite>
-          </blockquote>
-        </div>
-
-      </div>
-    </div>
-  </div>
-
-
-<!-- Stats  -->
-    <div class="block block-bordered-0 m-b-lg">
-      <div class="used-by container text-center">
-        <div class="row">
-          <div class="col-sm-12 col-sm-offset-0 text-center m-b-lg">
-            <h1 class="m-t-0">
-              <strong class="block text-ribbon text-ribbon-primary">
-                <span>Who Rolls Down Under?</span>
-              </strong>
-            </h1>
-            <p class="b lead m-x-auto">Australians buying ROLL Recovery</p>
+          <div class="col-md-10 col-md-offset-1">
+              <h4 class="b up">
+                <span class="text-ribbon text-ribbon-primary">
+                    <span class="b grey icon icon-star"></span>
+                    <span class="b grey icon icon-star"></span>
+                    <span class="b grey icon icon-star"></span>
+                    <span class="b grey icon icon-star"></span>
+                    <span class="b grey icon icon-star"></span>
+                    </span>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <span class="text-muted">"</span>Easy &amp; portable<span class="text-muted">"</span>
+              </h4>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-3 col-xs-6 m-b-md">
-            <div class="statcard">
-              <h1 class="statcard-number block-title">26%</h1>
-              <span class="statcard-desc">Cyclists</span>
-            </div>
-          </div>
-          <div class="col-sm-3 col-xs-6 m-b-md">
-            <div class="statcard">
-              <h1 class="statcard-number block-title">22%</h1>
-              <span class="statcard-desc">Runners</span>
-            </div>
-          </div>
-          <div class="col-sm-3 col-xs-6 m-b-md">
-            <div class="statcard">
-              <h1 class="statcard-number block-title">19%</h1>
-              <span class="statcard-desc">Physiotherapists</span>
-            </div>
-          </div>
-          <div class="col-sm-3 col-xs-6 m-b-md">
-            <div class="statcard">
-              <h1 class="statcard-number block-title">14%</h1>
-              <span class="statcard-desc">Triathletes</span>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-3 col-xs-6 m-b-md">
-            <div class="statcard">
-              <h1 class="statcard-number block-title">5%</h1>
-              <span class="statcard-desc">Cross Fit</span>
-            </div>
-          </div>
-          <div class="col-sm-3 col-xs-6 m-b-md">
-            <div class="statcard">
-              <h1 class="statcard-number block-title">4%</h1>
-              <span class="statcard-desc">Personal Trainers</span>
-            </div>
-          </div>
-          <div class="col-sm-3 col-xs-6 m-b-md">
-            <div class="statcard">
-              <h1 class="statcard-number block-title">1%</h1>
-              <span class="statcard-desc">Tennis Players</span>
-            </div>
-          </div>
-          <div class="col-sm-3 col-xs-6 m-b-md">
-            <div class="statcard">
-              <h1 class="statcard-number block-title">9%</h1>
-              <span class="statcard-desc">Other</span>
-            </div>
-          </div>
-        </div>
-        <div class="row p-t-md">
-          <small class="text-muted">
-            *Stats generated by ROLL Recovery AU &amp; NZ customer surveys. Updated 01/08/2016.
-          </small>
-        </div>
-      </div>
-    </div>
 
-
-<!-- Aussie Offers -->
-  <div id="buy-and-try" class="block block-bordered-0 block-secondary app-block-marketing-grid">
-    <div class="container text-center">
-
-      <div class="row">
-        <div class="col-sm-12 col-sm-offset-0 text-center m-b-lg">
-          <h1 class="m-t-0 w-full">
-            <strong class="block text-ribbon text-ribbon-primary">
-              <span>Exclusive Aussie Offers</span>
-            </strong>
-          </h1>
-          <p class="b lead m-x-auto">For Australian Customers Only</p>
-        </div>
-      </div>
-
-
-      <div class="row app-marketing-grid text-left">
-        <div class="col-sm-6 p-x-md m-b-lg">
-          <!--img class="m-b" src="assets/img/startup-9.svg"-->
-          <p class="lead"><strong>Buy &amp; Try.</strong> Try your ROLL Recovery R8 for a week at home. If you don't like it send it back for full refund. <span class="text-muted">*Full refund less shipping costs</span></p>
-        </div>
-        <div class="col-sm-6 p-x-md m-b-lg">
-          <!--img class="m-b" src="assets/img/startup-10.svg"-->
-          <p class="lead"><strong>Next Day Delivery.</strong> Buy today and be rolling tomorrow! We ship today and deliver *tomorrow. <span class="text-muted">*As per Australia Post Express Post zones and conditions</span></p>
-        </div>
-      </div>
-
-      <div class="row app-marketing-grid text-left">
-        <div class="col-sm-8 col-sm-offset-2 p-x-md m-b-lg">
-          <!--img class="m-b" src="assets/img/startup-11.svg"-->
-          <p class="lead"><strong>Phone Orders.</strong> Not a fan of the internet? Order on the phone instead. Call any day of the week between 9am - 7pm (including weekends). Phone: <a href="tel:+61280060049">02 800 600 49</a></p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-<!-- Instant Checkout -->
-      <div class="block block-bordered-0 block-overflow-hidden app-block-design">
-        <div class="container">
-
-          <div class="row">
-            <div class="col-sm-12 col-sm-offset-0 text-center m-b-lg">
-              <h1 class="m-t-0">
-                <strong class="block text-ribbon text-ribbon-primary">
-                  <span>Instant Checkout&nbsp;&nbsp;<span class="icon icon-shopping-cart"></span></span>
-                </strong>
-              </h1>
-              <p class="b lead m-x-auto"><span class="icon icon-check"></span>Safe <span class="icon icon-check"></span>Fast <span class="icon icon-check"></span>Simple</p>
-            </div>
+          <div class="col-md-10 col-md-offset-1">
+              <h4 class="b up">
+                <span class="text-ribbon text-ribbon-primary">
+                    <span class="b grey icon icon-star"></span>
+                    <span class="b grey icon icon-star"></span>
+                    <span class="b grey icon icon-star"></span>
+                    <span class="b grey icon icon-star"></span>
+                    <span class="b grey icon icon-star"></span>
+                    </span>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <span class="text-muted">"</span>instant results!<span class="text-muted">"</span>
+              </h4>
           </div>
-          <div class="row">
-            <div class="col-sm-10 col-sm-offset-1 m-b-lg">
-              <p class="lead">
-                Our Instant Checkout makes your purchase <strong>faster, safer, and easier</strong> than ever — <strong>even on mobile phones</strong>. You <strong>don't need to sign-up or open an account</strong> <!--just enter your name and delivery details, pick your product(s), and pay--> and we use <strong>bank-level security</strong> to encrypt our checkout and <strong>protect your data</strong>.
-              </p>
-            </div>
+
+          <div class="col-md-10 col-md-offset-1">
+              <h4 class="b up">
+                <span class="text-ribbon text-ribbon-primary">
+                    <span class="b grey icon icon-star"></span>
+                    <span class="b grey icon icon-star"></span>
+                    <span class="b grey icon icon-star"></span>
+                    <span class="b grey icon icon-star"></span>
+                    <span class="b grey icon icon-star"></span>
+                    </span>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <span class="text-muted">"</span>fresh legs forever<span class="text-muted">"</span>
+              </h4>
           </div>
-          <div class="row text-center">
-            <div class="col-md-offset-0 col-xs-4 m-b-lg">
-              <div class="statcard">
-                <h1 class="statcard-number block-title">95%</h1>
-                <span class="statcard-desc">Of customers love our instant checkout</span>
-              </div>
-            </div>
-            <div class="col-xs-4">
-              <div class="statcard">
-                <h1 class="statcard-number block-title">98%</h1>
-                <span class="statcard-desc">Of customers find our instant checkout easy to use</span>
-              </div>
-            </div>
-            <div class="col-xs-4">
-              <div class="statcard">
-                <h1 class="statcard-number block-title">86%</h1>
-                <span class="statcard-desc">Of customers are recommended by a friend, physio, or Pro athlete</span>
-              </div>
-            </div>
+
+          <div class="col-md-10 col-md-offset-1">
+              <h4 class="b up">
+                <span class="text-ribbon text-ribbon-primary">
+                    <span class="b grey icon icon-star"></span>
+                    <span class="b grey icon icon-star"></span>
+                    <span class="b grey icon icon-star"></span>
+                    <span class="b grey icon icon-star"></span>
+                    <span class="b grey icon icon-star"></span>
+                    </span>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <span class="text-muted">"</span>guaranteed love<span class="text-muted">"</span>
+              </h4>
           </div>
 
         </div>
-      </div>
 
+        <div class="content"><p><strong>The ROLL Recovery R8</strong> is an award-winning sports massage tool that turns the dream of <strong>every day massage</strong> into reality. Providing <strong>instant, easy relief</strong> to sore and sorry legs, the R8 is your very own <strong>personal, portable </strong> leg masseuse.</p>
+</div>
 
-<!-- R3 -->
-  <div id="r3" class="block block-bordered-0 p-b-0 app-block-stats">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12 col-sm-offset-0 text-center m-b-lg">
-          <h1 class="m-t-0">
-            <strong class="block text-ribbon text-ribbon-primary">
-              <span>The R3</span>
-            </strong>
-          </h1>
-          <p class="b lead m-x-auto">Sweet Feet Relief</p>
-        </div>
-        <div class="col-md-4 col-sm-6">
-          <img src="./assets/i/roll-recovery-r3-use-sm.jpg" class="app-translate-5" data-transition="entrance">
-          <hr class="m-t-0 m-b-lg m-x-auto visible-xs">
-        </div>
-        <div class="col-md-4 col-sm-6">
-          <img src="./assets/i/roll-recovery-r3s.jpg"" class="app-translate-5" data-transition="entrance">
-          <hr class="m-t-0 m-b-lg m-x-auto visible-xs">
-        </div>
-        <div class="col-md-4 col-sm-6">
-          <img src="./assets/i/roll-recovery-r3-use-sm.jpg"" class="app-translate-5" data-transition="entrance">
-        </div>
-      </div>
-    </div>
-  </div>
+        <div class="row m-t-lg">
 
-  <div class="block">
-    <div class="container">
+          <hr class= "m-t-0">
 
-      <div class="row">
-        <div class="col-sm-8 col-sm-offset-2 text-center m-b-lg">
-          <p class="lead m-x-auto"><strong>The ROLL Recovery R3</strong> is a purpose-built foot roller that brings <strong>sweet feet relief</strong> to your most-used and most-neglected body part. Providing <strong>instant, easy relief</strong> to sore and sorry feet, the R3 is your very own <strong>personal, portable</strong> foot masseuse.
-          </p>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-sm-6">
-          <ul class="featured-list">
-            <li class="m-b-lg">
-              <div class="featured-list-icon text-primary">
-                <img src="./assets/i/rr-hands-sm.png">
-              </div>
-              <p class="featured-list-icon-text m-b-0"><strong>Treat Your Feet</strong></p>
-              <p class="featured-list-icon-text">
-                Our feet are so important they contain 25% of the all the bones in our body, plus 33 joints and >100 muscles, tendons and ligaments. So when was your last foot massage? Don't forget to treat your feet!
-              </p>
-            </li>
-
-            <li class="m-b-lg">
-              <div class="featured-list-icon text-primary">
-                <img src="./assets/i/rr-hands-sm.png">
-              </div>
-              <p class="featured-list-icon-text m-b-0"><strong>Prevent Plantar</strong></p>
-              <p class="featured-list-icon-text">
-                Prevention is always better than cure and if you know the pain of plantar fasciitis you know this to be true. The ROLL Recovery R3 gives you sweet feet relief and can help prevent pain and plantar fasciitis.
-              </p>
-            </li>
-
-          </ul>
-        </div>
-        <div class="col-sm-6 m-b-lg">
-          <ul class="featured-list">
-
-            <li class="m-b-lg">
-              <div class="featured-list-icon text-primary">
-                <img src="./assets/i/rr-hands-sm.png">
-              </div>
-              <p class="featured-list-icon-text m-b-0"><strong>Relieve Plantar</strong></p>
-              <p class="featured-list-icon-text">
-                Plantar fasciitis can cripple athletes and everyday people alike, the young and the old too. The ROLL Recovery R3 gives you sweet feet relief and can help relieve pain and plantar fasciitis.
-              </p>
-            </li>
-
-            <li class="m-b-lg">
-              <div class="featured-list-icon text-primary">
-                <img src="./assets/i/rr-hands-sm.png">
-              </div>
-              <p class="featured-list-icon-text m-b-0"><strong>Trigger Points Too</strong></p>
-              <p class="featured-list-icon-text">
-                Even if you have no plantar problems the ROLL Recovery R3 provides sweet feet relief for every pair on the planet. It also works well as a trigger-point tool for your hips, glutes, and hamstrings, replacing tennis balls and spikey things.
-              </p>
-            </li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="row text-center">
-        <div class="col-md-offset-0 col-xs-12 m-b-lg">
-          <div class="statcard">
-            <h2 class="statcard-number block-title b">$69</h2>
-            <span class="statcard-desc">* Shipped from Australia</span><br>
-            <span class="statcard-desc">* Price includes next-day delivery</span><br>
-            <!--span class="statcard-desc">* Comes with our <a href="#buy-and-try">Buy & Try Gaurantee</a></span-->
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-md-10 col-md-offset-1 col-sm-12">
-          <div class="panel panel-default panel-floating panel-floating-inline">
-            <div class="panel-body">
-              <div class="panel-content pull-left">
-                <h4 class="m-b-0"><strong class="red">*</strong> Olympic fever has been high and we're <strong>nearly out of stock</strong>!</h4>
-                <!--p class="text-muted"><small></small></p-->
-              </div>
-              <div class="panel-actions pull-right inline">
-                <a href="https://rollrecovery.com.au/buy" class="btn btn-lg btn-info"> Buy Now </a>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-
-    </div>
-  </div>
-
-
-<!--R8 -->
-  <div id="r8" class="block block-bordered-0 p-b-0 app-block-stats">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12 col-sm-offset-0 text-center m-b-lg">
-          <h1 class="m-t-0">
-            <strong class="block text-ribbon text-ribbon-primary">
-              <span>The R8</span>
-            </strong>
-          </h1>
-          <p class="b lead m-x-auto">Leg Massage Made Easy</p>
-        </div>
-        <div class="col-md-4 col-sm-6">
-          <img src="./assets/i/roll-recovery-4.jpg"" class="app-translate-5" data-transition="entrance">
-          <hr class="m-t-0 m-b-lg m-x-auto visible-xs">
-        </div>
-        <div class="col-md-4 col-sm-6">
-          <img src="./assets/i/roll-recovery-r8-use.jpg"" class="app-translate-5" data-transition="entrance">
-          <hr class="m-t-0 m-b-lg m-x-auto visible-xs">
-        </div>
-        <div class="col-md-4 col-sm-6">
-          <img src="./assets/i/roll-recovery-5.jpg"" class="app-translate-5" data-transition="entrance">
-          <hr class="m-t-0 m-b-lg m-x-auto visible-xs">
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="block">
-    <div class="container">
-
-      <div class="row">
-        <div class="col-sm-8 col-sm-offset-2 text-center m-b-lg">
-          <p class="lead m-x-auto"><strong>The ROLL Recovery R8</strong> is an award-winning sports massage tool that turns the dream of <strong>every day massage</strong> into reality. Providing <strong>instant, easy relief</strong> to sore and sorry legs, the R8 is your very own <strong>personal, portable </strong> leg masseuse.</p>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-sm-6">
-          <ul class="featured-list">
-            <li class="m-b-lg">
-              <div class="featured-list-icon text-primary">
-                <img src="./assets/i/rr-hands-sm.png">
-              </div>
-              <p class="featured-list-icon-text m-b-0"><strong>Massage Everyday</strong></p>
-              <p class="featured-list-icon-text">
-                The R8 is so effective that you only need to use it for 5 minutes every day to keeps your legs in great shape. 5 minutes pre-workout and 5 minutes post-workout is even better again. It's so easy to use that you'll always use it too.
-              </p>
-            </li>
-
-            <li class="m-b-lg">
-              <div class="featured-list-icon text-primary">
-                <img src="./assets/i/rr-hands-sm.png">
-              </div>
-              <p class="featured-list-icon-text m-b-0"><strong>Massage Made Easy</strong></p>
-              <p class="featured-list-icon-text">
-                No psych-up sessions needed and no rolling around on the floor required. The R8 is so easy to use you'll always use it. Just leave it on your lounge, in your car, or at your work desk and bust it out for 5 minutes of leg magic. Easy.
-              </p>
-            </li>
-
-          </ul>
-        </div>
-        <div class="col-sm-6 m-b-lg">
-          <ul class="featured-list">
-            <li class="m-b-lg">
-              <div class="featured-list-icon text-primary">
-                <img src="./assets/i/rr-hands-sm.png">
-              </div>
-              <p class="featured-list-icon-text m-b-0"><strong>Massage Anywhere</strong></p>
-              <p class="featured-list-icon-text">
-                The R8 is small, portable, and easy to pack in your back or carry with you. You can use it sitting down or standing up; on the plane or train; in the park or in the dark; at home or at work; trackside, poolside, beachside; use it anywhere.
-              </p>
-            </li>
-
-            <li class="m-b-lg">
-              <div class="featured-list-icon text-primary">
-                <img src="./assets/i/rr-hands-sm.png">
-              </div>
-              <p class="featured-list-icon-text m-b-0"><strong>Massive ROI</strong></p>
-              <p class="featured-list-icon-text">
-                Use your R8 for 5 minutes everyday of the year and you're now paying less than $1 per massage! Use your R8 for 5 minutes every week and you're still now only paying $5 per massage!
-              </p>
-            </li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="row text-center">
-        <div class="col-md-offset-0 col-xs-12 m-b-lg">
-          <div class="statcard">
-            <h2 class="statcard-number block-title b">$249</h2>
-            <span class="statcard-desc">* Shipped from Australia</span><br>
-            <span class="statcard-desc">* Price includes next-day delivery</span><br>
-            <span class="statcard-desc">* Comes with our <a href="#buy-and-try">Buy & Try Gaurantee</a></span>
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-md-10 col-md-offset-1 col-sm-12">
-          <div class="panel panel-default panel-floating panel-floating-inline">
-            <div class="panel-body">
-              <div class="panel-content pull-left">
-                <h4 class="m-b-0"><strong class="red">*</strong> Olympic fever has been high and we're <strong>nearly out of stock</strong>!</h4>
-                <!--p class="text-muted"><small></small></p-->
-              </div>
-              <div class="panel-actions pull-right inline">
-                <a href="https://rollrecovery.com.au/buy" class="btn btn-lg btn-info"> Buy Now </a>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-
-    </div>
-  </div>
-
-
-<!-- FAQs -->
-    <div id="faqs" class="block block-bordered-0 p-b-0 m-b-lg app-block-stats">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12 col-sm-offset-0 text-center m-b-lg">
-            <h1 class="m-t-0">
-              <strong class="block text-ribbon text-ribbon-primary">
-                <span>FAQs</span>
-              </strong>
-            </h1>
-            <p class="b lead m-x-auto">Frequently Asked Questions</p>
-          </div>
-        </div>
-
-        <div class="row">
           <div class="col-sm-12">
-            <ul class="featured-list">
-              <li class="m-b-lg">
-                <div class="featured-list-icon text-primary">
-                  <img src="./assets/i/rr-hands-sm.png">
-                </div>
-                <p class="featured-list-icon-text m-b-0"><strong>Can I buy ROLL Recovery in an Australian retail store?</strong></p>
-                <p class="featured-list-icon-text">
-                  No. The only place to buy a ROLL Recovery in Australia is this website.
-                </p>
-              </li>
-              <li class="m-b-lg">
-                <div class="featured-list-icon text-primary">
-                  <img src="./assets/i/rr-hands-sm.png">
-                </div>
-                <p class="featured-list-icon-text m-b-0"><strong>Can I really try my ROLL Recovery R8 at home for a week then send it back for a refund if I don't love it?</strong></p>
-                <p class="featured-list-icon-text">
-                  Yes you can.
-                </p>
-              </li>
+            <a href="https://rollrecovery.com.au/buy" class="pull-left btn btn-lg btn-default"> <span class="icon icon-shopping-cart"></span> Buy Now </a>
 
-              <li class="m-b-lg">
-                <div class="featured-list-icon text-primary">
-                  <img src="./assets/i/rr-hands-sm.png">
-                </div>
-                <p class="featured-list-icon-text m-b-0"><strong>How many customers have ever sent back their ROLL Recovery?</strong></p>
-                <p class="featured-list-icon-text">
-                  Technically speaking one person sent their ROLL Recovery back. And that was Rohan. But Rohan phoned us the day after he sent it back and asked us to send it back to him! So <strong>no-one has ever returned their ROLL Recovery for a refund</strong>.<br><br>Rohan explained that he'd had ten years of ITB trouble after a car accident and had long given up hope that anything would help. He bought an R8 anyway, trying it only twice before sending it straight back; he was convinced it wouldn't help. But the next day he exercised and couldn't believe how much improvement he felt in his ITB and he knew exactly what had made the difference. So now he no longer wanted a refund — he just wanted his ROLL Recovery back! So we sent it straight back to him and we shared a friendly laugh about it.<br><br>Rohan then showed his physio the R8 and she bought one for her practice the very next day.
-                </p>
-              </li>
-              <li class="m-b-lg">
-                <div class="featured-list-icon text-primary">
-                  <img src="./assets/i/rr-hands-sm.png">
-                </div>
-                <p class="featured-list-icon-text m-b-0"><strong>Where can I read more ROLL Recovery reviews?</strong></p>
-                <p class="featured-list-icon-text">
-                  La Velocita recently reviewed the <a href="http://www.lavelocita.cc/la-velocita-reviews/roll-recovery-r8" target="_blank">ROLL Recovery R8</a>, The Long Run have reviewed the <a href="http://www.thelongrun.com.au/r8-roll-recovery-self-massage-made-easy/" target="_blank">ROLL Recovery R8</a> and the <a href="http://www.thelongrun.com.au/r3-roll-recovery/" target="_blank">ROLL Recovery R3</a>, and INNER PRO have the inside scoop on whether Professional athletes prefer a <a href="https://www.inner.pro/run-crew-run-camp-photos/">foam roller or the R8</a>?
-                </p>
-              </li>
-              <li class="m-b-lg">
-                <div class="featured-list-icon text-primary">
-                  <img src="./assets/i/rr-hands-sm.png">
-                </div>
-                <p class="featured-list-icon-text m-b-0"><strong>Can I order over the phone?</strong></p>
-                <p class="featured-list-icon-text">
-                   Yes you can. Call <a href="tel:+61280060049">02 800 600 49</a> any day between 10am - 6pm to place a phone order.
-                </p>
-              <li class="m-b-lg">
-                <div class="featured-list-icon text-primary">
-                  <img src="./assets/i/rr-hands-sm.png">
-                </div>
-                <p class="featured-list-icon-text m-b-0"><strong>I have a totally different question — how can I ask it?</strong></p>
-                <p class="featured-list-icon-text">
-                   Email <a href="mailto:rollrecovery@stoqe.com">rollrecovery@stoqe.com</a> or call <a href="tel:+61280060049">02 800 600 49</a> any day between 10am - 6pm.
-                </p>
-              </li>
-            </ul>
+            <a href="https://rollrecovery.com.au/r8" class="pull-right btn btn-lg btn-inverse"> <span class="hidden-xs">Learn</span> More about the R8 <span class="red icon icon-forward"></span> </a>
           </div>
-        </div>
 
-
-
-
-      </div>
-    </div>
-
-
-
-<!-- Footer -->
-  <div class="block app-block-footer">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-2 m-b">
-          <ul class="list-unstyled list-spaced">
-            <li><h6 class="text-uppercase">Products</h6></li>
-            <li><a href="#r3">R3 Foot Massage</a></li>
-            <li><a href="#r8">R8 Leg Massage</a></li>
-          </ul>
-        </div>
-        <div class="col-sm-2 m-b">
-          <ul class="list-unstyled list-spaced">
-            <li><h6 class="text-uppercase">Contacts</h6></li>
-            <li><a href="tel:+61280060049">Phone</a></li>
-            <li><a href="mailto:rollrecovery@stoqe.com">Email</a></li>
-          </ul>
-        </div>
-        <div class="col-sm-2 m-b">
-          <ul class="list-unstyled list-spaced">
-            <li><h6 class="text-uppercase">Links</h6></li>
-            <li><a href="https://stoqe.com" target="_blank">STOQE</a></li>
-            <li><a href="https://twitter.com/STOQE" target="_blank">@STOQE</a></li>
-            <li><a href="http://rollrecovery.com" target="_blank">ROLL Recovery US</a></li>
-          </ul>
-        </div>
-        <div class="col-sm-6">
-          <h6 class="text-uppercase">About ROLL Recovery Australia</h6>
-          <p>ROLL Recovery is brought to Australia by STOQE — the official Australian seller of world's greatest recovery tools. When you buy from this website you're buying Australian stock from an Australian business with all the Australian benefits. STOQE is independent of ROLL Recovery LLC — the company who invented, produce, and manufacture ROLL Recovery. STOQE buys stock directly from ROLL Recovery and sells to Australian and New Zealand customers only.</p>
         </div>
       </div>
     </div>
   </div>
+
+
+      </div>
+      
+      <div class="col-sm-6 m-b-sm p-t-sm">
+        
+
+
+  <div class="m-t-md panel panel-default panel-floating panel-floating-inline">
+    <div class="panel-body">
+      <div class="panel-content">
+        <h2 class="b m-t-0 m-b-0">R3</h2>
+        <h3 class="m-t-0">Sweet Feet Relief</h3>
+        <a href="https://rollrecovery.com.au/r3"><img class="m-t-sm" src="./assets/i/roll-recovery-r3-use-sm.jpg"></a>
+      </div>
+
+      <div class="panel-actions inline">
+        <div class="row imgauto text-left m-t-lg m-b-lg">
+
+          <div class="col-md-10 col-md-offset-1">
+              <h4 class="b up">
+                <span class="text-ribbon text-ribbon-primary">
+                    <span class="b grey icon icon-star"></span>
+                    <span class="b grey icon icon-star"></span>
+                    <span class="b grey icon icon-star"></span>
+                    <span class="b grey icon icon-star"></span>
+                    <span class="b grey icon icon-star"></span>
+                    </span>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <span class="text-muted">"</span>Prevent Plantar<span class="text-muted">"</span>
+              </h4>
+          </div>
+
+          <div class="col-md-10 col-md-offset-1">
+              <h4 class="b up">
+                <span class="text-ribbon text-ribbon-primary">
+                    <span class="b grey icon icon-star"></span>
+                    <span class="b grey icon icon-star"></span>
+                    <span class="b grey icon icon-star"></span>
+                    <span class="b grey icon icon-star"></span>
+                    <span class="b grey icon icon-star"></span>
+                    </span>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <span class="text-muted">"</span>Relieve Plantar<span class="text-muted">"</span>
+              </h4>
+          </div>
+
+          <div class="col-md-10 col-md-offset-1">
+              <h4 class="b up">
+                <span class="text-ribbon text-ribbon-primary">
+                    <span class="b grey icon icon-star"></span>
+                    <span class="b grey icon icon-star"></span>
+                    <span class="b grey icon icon-star"></span>
+                    <span class="b grey icon icon-star"></span>
+                    <span class="b grey icon icon-star"></span>
+                    </span>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <span class="text-muted">"</span>Treat Your Feet!<span class="text-muted">"</span>
+              </h4>
+          </div>
+
+          <div class="col-md-10 col-md-offset-1">
+              <h4 class="b up">
+                <span class="text-ribbon text-ribbon-primary">
+                    <span class="b grey icon icon-star"></span>
+                    <span class="b grey icon icon-star"></span>
+                    <span class="b grey icon icon-star"></span>
+                    <span class="b grey icon icon-star"></span>
+                    <span class="b grey icon icon-star"></span>
+                    </span>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <span class="text-muted">"</span>Trigger Points Too<span class="text-muted">"</span>
+              </h4>
+          </div>
+
+        </div>
+
+        <div class="content"><p><strong>The ROLL Recovery R3</strong> is a purpose-built foot roller that gives you <strong>sweet feet relief</strong>. Providing <strong>instant, easy relief</strong> to sore and sorry feet — including plantar fasciitis problems — the R3 is your very own <strong>personal, portable</strong> foot masseuse.</p>
+</div>
+
+        <div class="row m-t-lg">
+
+          <hr class= "m-t-0">
+
+          <div class="col-sm-12">
+            <a href="https://rollrecovery.com.au/buy" class="pull-left btn btn-lg btn-default"> <span class="icon icon-shopping-cart"></span> Buy Now </a>
+
+            <a href="https://rollrecovery.com.au/r3" class="pull-right btn btn-lg btn-inverse"> <span class="hidden-xs">Learn</span> More about the R3 <span class="red icon icon-forward"></span> </a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+<div id="reviews" class="block block-bordered text-center">
+  <div class="container p-x-0">
+    <div class="row row-padded row-bordered row-centered">
+      <div class="col-sm-12">
+        <div class="panel panel-default panel-floating panel-floating-inline">
+          <div class="panel-body">
+            <div class="panel-content">
+              <h2 class="m-t-0 m-b-0 p-y-0 ">Pro Reviews</h2>
+              <h4 class="m-t-0 text-muted">What the Pro's think of ROLL Recovery, in just one word...</h4>
+            </div>
+            <div class="row p-t-md">
+               
+              <div class="col-md-3 col-xs-6">
+                <blockquote class="pull-quote m-b-0">
+                  <img class="img-circle" class="app-translate-5" data-transition="entrance" src="./assets/i/robbie-mcewen.jpg">
+                  <p>
+                    "Awesome."
+                  </p>
+                  <cite><strong>ROBBIE MCEWEN</strong>
+                    <br>CYCLING SUPERSTAR</cite>
+                </blockquote>
+              </div>
+                
+              <div class="col-md-3 col-xs-6">
+                <blockquote class="pull-quote m-b-0">
+                  <img class="img-circle" class="app-translate-5" data-transition="entrance" src="./assets/i/emma-moffatt.jpg">
+                  <p>
+                    "Easy."
+                  </p>
+                  <cite><strong>EMMA MOFFATT</strong>
+                    <br>OLYMPIC TRIATHLETE</cite>
+                </blockquote>
+              </div>
+                
+              <div class="col-md-3 col-xs-6">
+                <blockquote class="pull-quote m-b-0">
+                  <img class="img-circle" class="app-translate-5" data-transition="entrance" src="./assets/i/ben-st-lawrence.jpg">
+                  <p>
+                    "Portable!"
+                  </p>
+                  <cite><strong>BEN ST LAWRENCE</strong>
+                    <br>OLYMPIC RUNNER</cite>
+                </blockquote>
+              </div>
+                
+              <div class="col-md-3 col-xs-6">
+                <blockquote class="pull-quote m-b-0">
+                  <img class="img-circle" class="app-translate-5" data-transition="entrance" src="./assets/i/liz-blatchford.jpg">
+                  <p>
+                    "Ingenious."
+                  </p>
+                  <cite><strong>LIZ BLATCHFORD</strong>
+                    <br>PRO TRIATHLETE</cite>
+                </blockquote>
+              </div>
+               
+            </div>
+            <div class="row m-t-lg text-center">
+              <hr class="m-t-0">
+              <div class="col-sm-12">
+                <a href="./reviews" class=" btn btn-lg btn-inverse"> <span class="hidden-xs"></span>See More Pro Reviews <span class="red icon icon-forward"></span> </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="block block-bordere p-t-md">
+  <div class="used-by container p-x-0 text-center">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="panel panel-default panel-floating panel-floating-inline">
+          <div class="panel-body">
+            <div class="panel-content">
+              <h2 class="m-b-0"><strong>Exclusive Australian Offers</strong></h2>
+              <h4 class="text-muted">*For Australian Deliveries Only</h4>
+              <div class="row p-t-md">
+                
+                   <ul class="featured-list text-left">
+
+  
+
+</ul>
+                
+                   <ul class="featured-list text-left">
+
+  
+
+</ul>
+                
+                   <ul class="featured-list text-left">
+
+  
+
+    <div class="col-sm-6">
+      <li class="m-b-lg">
+        <div class="featured-list-icon text-primary">
+          <img src="./assets/i/rr-hands-sm.png">
+        </div>
+        <p class="featured-list-icon-text m-b-0"><strong>Buy &amp; Try</strong> —
+            Buy an R8 and try it out for a week at home. If you don't love it send it back for full refund <span class="text-muted"> (less shipping costs)</span>.
+        </p>
+      </li>
+    </div>
+
+  
+
+    <div class="col-sm-6">
+      <li class="m-b-lg">
+        <div class="featured-list-icon text-primary">
+          <img src="./assets/i/rr-hands-sm.png">
+        </div>
+        <p class="featured-list-icon-text m-b-0"><strong>Next Day Delivery</strong> —
+            Buy today and be rolling tomorrow! We ship today and deliver tomorrow <span class="text-muted"> (as per Australia Post Express Post zones and conditions)</span>.
+        </p>
+      </li>
+    </div>
+
+  
+
+    <div class="col-sm-6">
+      <li class="m-b-lg">
+        <div class="featured-list-icon text-primary">
+          <img src="./assets/i/rr-hands-sm.png">
+        </div>
+        <p class="featured-list-icon-text m-b-0"><strong>60 Second Checkout</strong> —
+            You don't need an account to buy online! Our Instant Checkout makes your purchase faster, safer, and easier than ever — even on mobile phones .
+        </p>
+      </li>
+    </div>
+
+  
+
+    <div class="col-sm-6">
+      <li class="m-b-lg">
+        <div class="featured-list-icon text-primary">
+          <img src="./assets/i/rr-hands-sm.png">
+        </div>
+        <p class="featured-list-icon-text m-b-0"><strong>Phone Orders</strong> —
+            Not a fan of the internet? You can place a phone instead. Call us any day of the week between 9am - 7pm (including weekends). Phone: <a href="tel:+61280060049">02 800 600 49</a> .
+        </p>
+      </li>
+    </div>
+
+  
+
+</ul>
+                
+                   <ul class="featured-list text-left">
+
+  
+
+</ul>
+                
+                   <ul class="featured-list text-left">
+
+  
+
+</ul>
+                
+                   <ul class="featured-list text-left">
+
+  
+
+</ul>
+                
+                   <ul class="featured-list text-left">
+
+  
+
+</ul>
+                
+              </div>
+
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<div id="faqs" class="block block-bordered">
+  <div class="used-by container text-center">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="panel panel-default panel-floating panel-floating-inline">
+          <div class="panel-body">
+            <div class="panel-content">
+              <h2 class="m-b-0"><strong>Frequently Asked Questions</strong></h2>
+              <h4 class="text-muted"></h4>
+              <div class="row p-t-md">
+                <ul class="featured-list text-left">
+                  
+                  <li class="m-b-lg">
+                    <div class="featured-list-icon text-primary">
+                      <img src="./assets/i/rr-hands-sm.png">
+                    </div>
+                    <p class="featured-list-icon-text m-b-0"><strong>Where can I buy ROLL Recovery in Australia?</strong></p>
+                    <p class="featured-list-icon-text">
+                      Right here! This website is the official and only Australian reseller of ROLL Recovery products.
+                    </p>
+                  </li>
+                  
+                  <li class="m-b-lg">
+                    <div class="featured-list-icon text-primary">
+                      <img src="./assets/i/rr-hands-sm.png">
+                    </div>
+                    <p class="featured-list-icon-text m-b-0"><strong>Can I order over the phone?</strong></p>
+                    <p class="featured-list-icon-text">
+                      Yes you can. Call <a href="tel:+61280060049">02 800 600 49</a> any day between 10am - 6pm to place a phone order.
+                    </p>
+                  </li>
+                  
+                  <li class="m-b-lg">
+                    <div class="featured-list-icon text-primary">
+                      <img src="./assets/i/rr-hands-sm.png">
+                    </div>
+                    <p class="featured-list-icon-text m-b-0"><strong>Who use ROLL Recovery?</strong></p>
+                    <p class="featured-list-icon-text">
+                      Athletes, physios, medicos, and anyone looking for marginal gains, a competitive edge, rehab, prehab, pain relief, and muscle maintenance.
+                    </p>
+                  </li>
+                  
+                </ul>
+              </div>
+              <div class="row m-t- text-center">
+                <hr class="m-t-0">
+                <div class="col-sm-12">
+                  <a href="./faqs" class=" btn btn-lg btn-inverse"> <span class="hidden-xs"></span>See More FAQs <span class="red icon icon-forward"></span> </a>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="footer" class="block app-block-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-2 m-b">
+        <ul class="list-unstyled list-spaced">
+          <li>
+            <h6 class="text-uppercase">Products</h6></li>
+          <li><a href="#r3">R3 Foot Massage</a></li>
+          <li><a href="#r8">R8 Leg Massage</a></li>
+        </ul>
+      </div>
+      <div class="col-sm-2 m-b">
+        <ul class="list-unstyled list-spaced">
+          <li>
+            <h6 class="text-uppercase">Contacts</h6></li>
+          <li><a href="tel:+61280060049">Phone</a></li>
+          <li><a href="mailto:rollrecovery@stoqe.com">Email</a></li>
+        </ul>
+      </div>
+      <div class="col-sm-2 m-b">
+        <ul class="list-unstyled list-spaced">
+          <li>
+            <h6 class="text-uppercase">Links</h6></li>
+          <li><a href="https://stoqe.com" target="_blank">STOQE</a></li>
+          <li><a href="https://twitter.com/STOQE" target="_blank">@STOQE</a></li>
+          <li><a href="http://rollrecovery.com" target="_blank">ROLL Recovery US</a></li>
+        </ul>
+      </div>
+      <div class="col-sm-6">
+        <h6 class="text-uppercase">About ROLL Recovery Australia</h6>
+        <p>ROLL Recovery is brought to Australia by STOQE — the official Australian seller of world's greatest recovery tools. When you buy from this website you're buying Australian stock from an Australian business with all the Australian benefits. STOQE is independent of ROLL Recovery LLC — the company who invented, produce, and manufacture ROLL Recovery. STOQE buys stock directly from ROLL Recovery and sells to Australian and New Zealand customers only.</p>
+      </div>
+    </div>
+  </div>
+</div>
 
   <script src="./assets/js/jquery.min.js"></script>
   <script src="./assets/js/toolkit.js"></script>
@@ -903,20 +751,21 @@
         s.parentNode.insertBefore(t, s);
       })();
   </script>
-  <!-- Twitter universal website tag code -->
+  
   <script>
   !function(e,n,u,a){e.twq||(a=e.twq=function(){a.exe?a.exe.apply(a,arguments):
   a.queue.push(arguments);},a.version='1',a.queue=[],t=n.createElement(u),
   t.async=!0,t.src='//static.ads-twitter.com/uwt.js',s=n.getElementsByTagName(u)[0],
   s.parentNode.insertBefore(t,s))}(window,document,'script');
-  // Insert Twitter Pixel ID and Standard Event data below
+  
   twq('init','nvczt');
   twq('track','PageView');
   </script>
-  <!-- End Twitter universal website tag code -->
-  <!-- GA -->
+  
+  
   <script> (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','//www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-83180583-1', 'auto'); ga('send', 'pageview'); </script>
-  <!-- /GA -->
+  
   </body>
 </html>
+
 
