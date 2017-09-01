@@ -156,64 +156,68 @@ ga('send', 'pageview');
 
                 <form name="Order Form" netlify-honeypot="bot-field" action="/thank-you/" class="w-100 w-80-ns pa1 black" netlify >
 
-                  <p class="lh-title ml3 f4 mb5 db w-100">
-                    &middot; Please fill in the order form and we'll email you an invoice<br>
-                    &middot; You can pay the invoice via secure credit card online or by direct debit<br>
-                    &middot; Please Note: we only delivery to Australia
-                  </p>
+                    <p class="lh-title ml3 f4 mb5 db w-100">
+                      &middot; Please fill in the order form and we'll email you an invoice<br>
+                      &middot; You can pay the invoice via secure credit card online or by direct debit<br>
+                      &middot; Please Note: we only delivery to Australia
+                    </p>
+
+                    <p class="dn">
+                      <label>N/A <input name="bot-field"></label>
+                    </p>
 
                     <div class="w-50 tl mb4">
                       <label for="R8 Order" class="f4 b db mb2">Number of R8s?<span class="normal black-60"></span></label>
-                        <input id="R8 Order" class="f5 input-reset ba b--black-20 pa2 mb2 db w-100" type="text" aria-describedby="name-desc">
+                        <input name="R8 Order" id="R8 Order" class="f5 input-reset ba b--black-20 pa2 mb2 db w-100" type="text" aria-describedby="R8 quantity">
                         <small id="name-desc" class="f6 black-60 db mb2">How many R8s would you like to order?</small>
                     </div>
 
                     <div class="w-50 tl mb4">
                       <label for="R3 Order" class="f4 b db mb2">Number of R3s<span class="normal black-60"></span></label>
-                        <input id="R3 Order" class="f5 input-reset ba b--black-20 pa2 mb2 db w-100" type="text" aria-describedby="name-desc">
+                        <input name="R3 Order" id="R3 Order" class="f5 input-reset ba b--black-20 pa2 mb2 db w-100" type="text" aria-describedby="R3 quantity">
                         <small id="name-desc" class="f6 black-60 db mb2">How many R3s would you like to order?</small>
                     </div>
 
                     <div class="w-50 tl mb4">
                       <label for="Firstname" class="f4 b db mb2">First Name <span class="normal black-60"></span></label>
-                        <input id="Firstname" class="f5 input-reset ba b--black-20 pa2 mb2 db w-100" type="text" aria-describedby="name-desc">
+                        <input name="Firstname" id="Firstname" class="f5 input-reset ba b--black-20 pa2 mb2 db w-100" type="text" aria-describedby="Your first name">
                         
                     </div>
 
                     <div class="w-50 tl mb4">
                       <label for="Surname" class="f4 b db mb2">Surname <span class="normal black-60"></span></label>
-                        <input id="Surname" class="f5 input-reset ba b--black-20 pa2 mb2 db w-100" type="text" aria-describedby="name-desc">
+                        <input name="Surname" id="Surname" class="f5 input-reset ba b--black-20 pa2 mb2 db w-100" type="text" aria-describedby="Your surname">
                         
                     </div>
 
 
                     <div class="w-50 tl mb4">
                       <label for="Phone Number" class="f4 b db mb2">Contact Phone Number <span class="normal black-60"></span></label>
-                        <input id="Phone Number" class="f5 input-reset ba b--black-20 pa2 mb2 db w-100" type="text" aria-describedby="name-desc">
+                        <input name="Phone Number" id="Phone Number" class="f5 input-reset ba b--black-20 pa2 mb2 db w-100" type="text" aria-describedby="Your contact phone number">
                         
                     </div>
 
                     <div class="w-50 tl mb4">
                       <label for="Street Address" class="f4 b db mb2">Street Address <span class="normal black-60">(for delivery)</span></label>
-                        <input id="Street Address" class="f5 input-reset ba b--black-20 pa2 mb2 db w-100" type="text" aria-describedby="name-desc">
+                        <input name="Street Address" id="Street Address" class="f5 input-reset ba b--black-20 pa2 mb2 db w-100" type="text" aria-describedby="Delivery address: street">
                         
                     </div>
 
                     <div class="w-50 tl mb4">
                       <label for="Suburb" class="f4 b db mb2">Suburb <span class="normal black-60"></span></label>
-                        <input id="Suburb" class="f5 input-reset ba b--black-20 pa2 mb2 db w-100" type="text" aria-describedby="name-desc">
+                        <input name="Suburb" id="Suburb" class="f5 input-reset ba b--black-20 pa2 mb2 db w-100" type="text" aria-describedby="Delivery address: suburb">
                         
                     </div>
 
                     <div class="w-50 tl mb4">
                       <label for="State" class="f4 b db mb2">State <span class="normal black-60"></span></label>
-                        <input id="State" class="f5 input-reset ba b--black-20 pa2 mb2 db w-100" type="text" aria-describedby="name-desc">
+                        <input name="State" id="State" class="f5 input-reset ba b--black-20 pa2 mb2 db w-100" type="text" aria-describedby="Delivery address: state">
                         
                     </div>
 
                     <div class="w-50 tl mb4">
                       <label for="Postcode" class="f4 b db mb2">Postcode <span class="normal black-60"></span></label>
-                        <input id="Postcode" class="f5 input-reset ba b--black-20 pa2 mb2 db w-100" type="text" aria-describedby="name-desc">
+                        <input name="Postcode" id="Postcode" class="f5 input-reset ba b--black-20 pa2 mb2 db w-100" type="text" aria-describedby="Delivery address: postcode ">
                         
                     </div>
 
