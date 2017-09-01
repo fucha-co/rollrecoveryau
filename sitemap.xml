@@ -65,8 +65,22 @@
   </url>
   
   <url>
+    <loc>https://www.rollrecovery.com.au/buy/</loc>
+    <lastmod>2016-08-29T18:14:41+10:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://www.rollrecovery.com.au/reviews/tim-slade/</loc>
     <lastmod>2016-08-27T22:16:25+10:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.rollrecovery.com.au/thank-you/</loc>
+    <lastmod>2016-08-29T18:14:41+10:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
