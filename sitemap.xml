@@ -100,6 +100,12 @@
   </url>
   
   <url>
+    <loc>https://www.rollrecovery.com.au/cash-back-offer/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://www.rollrecovery.com.au/reviews/nick-gates/</loc>
     <lastmod>2016-08-27T21:45:14+10:00</lastmod>
     <changefreq>daily</changefreq>
